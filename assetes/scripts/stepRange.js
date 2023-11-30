@@ -1,15 +1,15 @@
-let arr = []
-function stepRange(a, b, c) {
+const arr = []
+function stepRange (a, b, c) {
   if (c > 0) {
-  for (let i = a; i <= b; i+=c) {
-    arr.push(i)
-  }
-  return arr
+    for (let i = a; i <= b; i += c) {
+      arr.push(i)
+    }
+    return arr
   } else if (c < 0) {
-  for (let i = b; i >= a; i+=c) {
-    arr.push(i)
-  }
-  return arr
+    for (let i = b; i >= a; i += c) {
+      arr.push(i)
+    }
+    return arr
   }
 }
 
