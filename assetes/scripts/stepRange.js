@@ -12,5 +12,6 @@ function stepRange(a, b, c) {
   return arr
   }
 }
+
 console.log(stepRange(1, 5, -1))
 // console.log(stepRange(1, 10, 2))
