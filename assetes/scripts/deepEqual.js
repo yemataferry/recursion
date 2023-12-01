@@ -1,5 +1,8 @@
-function deepEqual(x, y) {
-  if (x == y || x === y) {
+function deepEqual (x, y) {
+  if (x === y) {
+    return true
+  }
+  else if (x == y ) {
     return true
   }
   return false

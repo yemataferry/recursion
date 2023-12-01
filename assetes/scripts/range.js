@@ -2,7 +2,7 @@
 // e.g range(1, 5) => [1, 2, 3, 4, 5]
 
 const arr = []
-function range(a, b) {
+function range (a, b) {
   for (let i = a; i <= b; i++) {
     arr.push(i)
   }
