@@ -1,8 +1,8 @@
 function deepEqual (x, y) {
-  if (x === y || x === y) {// linter is refusing my second condition of with just == sign i dont know why but the code is running well  
+  if (x === y || x === y) { // linter is refusing my second condition of with just == sign i dont know why but the code is running well
     return true
   }
-    return false
+  return false
 }
 
 console.log(deepEqual(4, '4'))
