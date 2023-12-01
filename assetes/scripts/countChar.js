@@ -5,7 +5,7 @@ function countChar (str, charact) {
       count += 1
     }
   }
-  return count 
+  return count
 }
 
 console.log(countChar('BanaBBasaB', 'B'))
